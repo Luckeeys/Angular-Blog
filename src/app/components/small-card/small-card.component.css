@@ -23,6 +23,7 @@
 
 .container__small-card__separator{
     margin-top: 10px;
+    opacity: .5;
 }
 
 .small-card__data > p {
