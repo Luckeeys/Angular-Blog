@@ -1,7 +1,7 @@
 <div class="container__big-card">
     
     <div class="big-card__photo">
-        <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/representacao-grafica-de-uma-pessoa-segurando-o-planeta-terra-nas-maos-como-representacao-da-nova-ordem-mundial.jpg"
+        <img src="{{ cardPhoto }}"
         alt=""
         height="200px"
         width="400px"
@@ -10,19 +10,17 @@
     </div>
 
     <div class="big-card__data">
-        <p>30 de Setembro de 2023</p>
+        <p>{{ cardDate }}</p>
     </div>
 
     <div class="big-card__title">
-        <h1><a href="#">Descubra o Mundo: Explorando Culturas, Conhecimentos e Experiências</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
 
     <div class="big-card__description">
         <p>
             <a href="">
-                Bem-vindo ao Blog do Lucas! Aqui, vamos explorar juntos as maravilhas do mundo, 
-                desde as diferentes culturas até os conhecimentos mais fascinantes. 
-                Prepare-se para uma jornada emocionante repleta de descobertas e aprendizados.
+                {{ cardDescription }}
             </a>
         </p>
     </div>
