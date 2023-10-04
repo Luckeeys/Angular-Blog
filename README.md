@@ -20,4 +20,10 @@ O Blog ainda está bem simples, possui apenas a homepage e a pagina de noticia q
 
 ## Projeto realizado por Lucas Cipriano
 
+### Contatos
+
+* [Linkedin](https://www.linkedin.com/in/lucas-cipriano-3801b6172/)
+* [E-mail](mailto:lucas.cipra@gmail.com)
+* [WhastsApp](https://wa.me/+5511988732277)
+
 ![Alt text](./src/assets/mdImages/LucasOctocat.png)
