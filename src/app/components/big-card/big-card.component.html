@@ -1,4 +1,4 @@
-<div class="container__big-card">
+<a [routerLink]="['content', id ]"><div class="container__big-card">
     
     <div class="big-card__photo">
         <img src="{{ cardPhoto }}"
@@ -14,15 +14,13 @@
     </div>
 
     <div class="big-card__title">
-        <h1><a [routerLink]="['content', id ]">{{ cardTitle }}</a></h1>
+        <h1>{{ cardTitle }}</h1>
     </div>
 
     <div class="big-card__description">
         <p>
-            <a [routerLink]="['content', id ]">
-                {{ cardDescription }}
-            </a>
+            {{ cardDescription }}
         </p>
     </div>
 
-</div>
+</div></a>

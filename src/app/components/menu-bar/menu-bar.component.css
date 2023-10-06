@@ -6,4 +6,9 @@
 .container__menu-bar > ul > li{
     margin-right: 20px;
     list-style: none;
+
+}
+.container__menu-bar > ul > li > a:hover{
+    color: rgb(117, 117, 117);
+    text-decoration: underline;
 }

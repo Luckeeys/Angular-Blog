@@ -27,6 +27,11 @@
     margin-top: 15px;
 }
 
+.content__description > a:hover{
+    color: rgb(117, 117, 117);
+    text-decoration: underline;
+}
+
 .content__description > p {
     color: rgb(160, 159, 159);
 }
