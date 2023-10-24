@@ -1,5 +1,4 @@
 .container__small-card{
-    /* border: solid white 2px; */
     margin-bottom: 15px;
     width: 700px;
 }
@@ -17,8 +16,8 @@
 }
 
 .small-card__photo > img {
-    width: 200px;
-    min-width: 200px;
+    width: 230px;
+    min-width: 230px;
     margin-right: 20px;
 }
 
@@ -35,5 +34,5 @@
 
 .small-card__data > p {
     color: gray;
-    font-size: 11px;
+    font-size: 13px;
 }

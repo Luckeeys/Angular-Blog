@@ -8,7 +8,11 @@
     list-style: none;
 
 }
+
+.container__menu-bar > ul > li > a{
+    font-size: 19px;
+}
+
 .container__menu-bar > ul > li > a:hover{
     color: rgb(117, 117, 117);
-    text-decoration: underline;
 }
